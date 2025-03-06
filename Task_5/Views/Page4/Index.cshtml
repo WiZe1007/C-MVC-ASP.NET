@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Сторінка 4";
+    // Задаємо фон для Стор 4 через ViewBag
+    ViewBag.BackgroundUrl = "https://images.squarespace-cdn.com/content/v1/5d777de8109c315fd22faf3a/1693407136044-G90XQURX1GABMYGAS8K1/shutterstock_1288634614.jpg?format=2500w";
+}
+
+<!-- Контейнер для основного вмісту сторінки -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 4</h2>
+    <!-- Вивід ліч відвідувань -->
+    <p class="mb-3">Відвідувань: @ViewBag.VisitCount</p>
+    <p>Це Сторінка 4.</p>
+    <!-- Кнопка для переходу на Стор 5-->
+    <a asp-controller="Page5" asp-action="Index" class="btn btn-primary">Далі</a>
+</div>

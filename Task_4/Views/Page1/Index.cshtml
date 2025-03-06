@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Стор1";
+
+    // Задаємо фон для Стор1 через ViewBag
+    ViewBag.BackgroundUrl = "https://travel.home.sndimg.com/content/dam/images/travel/stock/2016/9/9/0/GettyImages-SapnaReddyPhotography-459319033_Yosemite.jpg.rend.hgtvcom.1280.853.suffix/1491594411873.jpeg";
+}
+
+<!-- Контейнер для вмісту сторінки -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 1</h2>
+    <p>Це Стор1. Перейдіть далі, натиснувши кнопку нижче.</p>
+    <!-- Кнопка для переходу на сторінку 3 -->
+    <a asp-controller="Page3" asp-action="Index" class="btn btn-primary">Перейти на Стор3</a>
+</div>

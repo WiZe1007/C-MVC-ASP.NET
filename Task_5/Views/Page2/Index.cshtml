@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Сторінка 2";
+    // Задаємо фон для Стор 2 через ViewBag
+    ViewBag.BackgroundUrl = "https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg";
+}
+
+<!-- Контейнер для основного вмісту сторінки -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 2</h2>
+    <!-- Відображення ліч відвідувань -->
+    <p class="mb-3">Відвідувань: @ViewBag.VisitCount</p>
+    <p>Це Сторінка 2.</p>
+    <!-- Кнопка для переходу на Стор 1 -->
+    <a asp-controller="Page1" asp-action="Index" class="btn btn-primary">Далі</a>
+</div>

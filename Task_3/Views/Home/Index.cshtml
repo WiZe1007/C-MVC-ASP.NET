@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Головна (Завдання 3)";
+}
+
+<!-- Основний контейнер -->
+<div class="container my-4">
+    <!-- Заголовок форми -->
+    <h2 class="mb-3">Форма: Кількість рядків (парний варіант)</h2>
+
+    <p class="mb-4">Кількість стовпчиків буде взята з БД (таблиця ColumnCounts).</p>
+
+    <!-- Форма для введення кількості рядків де дані відправляються методом POST -->
+    <form method="post" asp-action="IndexPost" asp-controller="Home">
+        <!-- Поле введення кількості рядків -->
+        <div class="mb-3">
+            <label class="form-label">Введіть кількість рядків:</label>
+            <input type="number" name="rowCount" class="form-control" placeholder="наприклад 5" />
+        </div>
+        <!-- Кнопка для побудови таблиці -->
+        <button type="submit" class="btn btn-primary">Побудувати таблицю</button>
+    </form>
+</div>
