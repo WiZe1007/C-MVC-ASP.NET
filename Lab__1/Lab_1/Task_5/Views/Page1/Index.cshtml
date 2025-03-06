@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Сторінка 1";
+    // Задаємо фон для Стор 1 через ViewBag 
+    ViewBag.BackgroundUrl = "https://static.vecteezy.com/system/resources/previews/049/547/631/non_2x/stunning-high-resolution-nature-and-landscape-backgrounds-breathtaking-scenery-in-hd-free-photo.jpg";
+}
+
+<!-- Контейнер для основного вмісту сторінки -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 1</h2>
+    <!-- Відображення ліч відвідувань -->
+    <p class="mb-3">Відвідувань: @ViewBag.VisitCount</p>
+    <!-- Опис сторінки -->
+    <p>Це Сторінка 1.</p>
+    <!-- Кнопка для переходу на Стор 3 -->
+    <a asp-controller="Page3" asp-action="Index" class="btn btn-primary">Далі</a>
+</div>

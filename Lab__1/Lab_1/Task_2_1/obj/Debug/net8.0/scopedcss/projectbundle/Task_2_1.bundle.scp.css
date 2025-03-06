@@ -1,0 +1,62 @@
+/* _content/Task_2_1/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-bl57aft2h8] {
+    white-space: normal; 
+    text-align: center; 
+    word-break: break-all; 
+}
+
+/* Загальний стиль для посилань */
+a[b-bl57aft2h8] {
+    color: #0077cc; 
+    transition: color 0.3s ease; /* Плавна зміна */
+}
+
+/* Стиль для кнопок primary */
+.btn-primary[b-bl57aft2h8] {
+    color: #fff; 
+    background-color: #1b6ec2; 
+    border-color: #1861ac; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Стиль для активних посилань у nav-pills */
+.nav-pills .nav-link.active[b-bl57aft2h8], .nav-pills .show > .nav-link[b-bl57aft2h8] {
+    color: #fff; 
+    background-color: #1b6ec2; 
+    border-color: #1861ac;
+}
+
+/* Стиль для верхньої межі елементів */
+.border-top[b-bl57aft2h8] {
+    border-top: 1px solid #e5e5e5; 
+}
+
+/* Стиль для нижньої межі елементів */
+.border-bottom[b-bl57aft2h8] {
+    border-bottom: 1px solid #e5e5e5; 
+}
+
+/* Легка тінь для створення об'ємного ефекту */
+.box-shadow[b-bl57aft2h8] {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, 0.05);
+}
+
+/* Стиль для кнопки прийняття політики */
+button.accept-policy[b-bl57aft2h8] {
+    font-size: 1rem; 
+    line-height: inherit; 
+    cursor: pointer; 
+}
+
+/* Стиль для футера */
+.footer[b-bl57aft2h8] {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    white-space: nowrap; 
+    line-height: 60px; 
+}
+

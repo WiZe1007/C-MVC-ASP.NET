@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Стор4";
+    // Задаємо фон для Стор4 через ViewBag
+    ViewBag.BackgroundUrl = "https://wallpapercave.com/wp/wp8975834.jpg";
+}
+
+<!-- Основний контейнер для розміщення вмісту -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 4</h2>
+    <p>Це Стор4. Перейдіть до наступної сторінки.</p>
+    <!-- Кнопка для переходу на Стор5 -->
+    <a asp-controller="Page5" asp-action="Index" class="btn btn-primary">Перейти на Стор5</a>
+</div>

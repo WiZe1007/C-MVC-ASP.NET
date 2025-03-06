@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Сторінка 3";
+    // Задаємо фон для Стор 3 через ViewBag
+    ViewBag.BackgroundUrl = "https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?cs=srgb&dl=pexels-pixabay-158063.jpg&fm=jpg";
+}
+
+<!-- Контейнер для основного вмісту сторінки -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 3</h2>
+    <!-- Виводимо ліч відвідувань -->
+    <p class="mb-3">Відвідувань: @ViewBag.VisitCount</p>
+    <p>Це Сторінка 3.</p>
+    <!-- Кнопка для переходу до Стор 4 -->
+    <a asp-controller="Page4" asp-action="Index" class="btn btn-primary">Далі</a>
+</div>

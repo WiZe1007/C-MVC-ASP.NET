@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Сторінка 5";
+    // Задаємо фон для Стор 5 через ViewBag
+    ViewBag.BackgroundUrl = "https://assets.tommackie.com/wp-content/uploads/2021/05/25145056/180540-1-1.jpg";
+}
+
+<!-- Контейнер для основного вмісту з відступами -->
+<div class="container my-5">
+    <h2 class="mb-3">Сторінка 5</h2>
+    <!-- Відображення ліч відвідувань -->
+    <p class="mb-3">Відвідувань: @ViewBag.VisitCount</p>
+    <p>Це Сторінка 5.</p>
+    <!-- Кнопка "Далі" для переходу на Стор 2 -->
+    <a asp-controller="Page2" asp-action="Index" class="btn btn-primary">Далі</a>
+</div>
